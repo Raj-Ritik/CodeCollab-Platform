@@ -8,32 +8,6 @@ The platform combines a browser-based code editor with REST APIs, PostgreSQL per
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [How CodeCollab Works](#how-codecollab-works)
-- [Application Workflow](#application-workflow)
-- [System Architecture](#system-architecture)
-- [Real-Time Collaboration Architecture](#real-time-collaboration-architecture)
-- [Code Execution Workflow](#code-execution-workflow)
-- [Authentication and Authorization](#authentication-and-authorization)
-- [Database Design](#database-design)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [API Overview](#api-overview)
-- [Environment Variables](#environment-variables)
-- [Local Development](#local-development)
-- [Production Deployment](#production-deployment)
-- [Example Use Case](#example-use-case)
-- [Engineering Decisions](#engineering-decisions)
-- [Limitations](#limitations)
-- [Future Improvements](#future-improvements)
-- [Learning Outcomes](#learning-outcomes)
-- [License](#license)
-
----
-
 # Overview
 
 CodeCollab is designed as an online collaborative coding environment where users can work together inside shared classrooms and projects.
