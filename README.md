@@ -190,7 +190,7 @@ The application can be understood as six major layers:
 │                  Frontend                   │
 │        React + TypeScript + Vite            │
 │                                             │
-│ CodeMirror │ Dashboard │ Classroom │ Chat  │
+│ CodeMirror │ Dashboard │ Classroom │ Chat   │
 └───────────────┬─────────────────────────────┘
                 │
         ┌───────┴────────┐
@@ -204,7 +204,7 @@ The application can be understood as six major layers:
 │                  Backend                    │
 │          Node.js + Express + TS             │
 │                                             │
-│ Auth │ Classes │ Projects │ Code │ Users   │
+│ Auth │ Classes │ Projects │ Code │ Users    │
 └────────────────┬────────────────────────────┘
                  │
                  ▼
