@@ -1,4 +1,5 @@
 # CodeCollab
+[Live Demo](https://codecollab-bice.vercel.app/) 
 
 > A real-time collaborative coding platform for classrooms, pair programming, and remote coding sessions.
 
@@ -635,65 +636,6 @@ Is current user a teacher?
         │
       Locked
 ```
-
----
-
-# Database Design
-
-The application uses PostgreSQL with Prisma ORM.
-
-## Entity Relationship
-
-```mermaid
-erDiagram
-
-    USER ||--o{ CLASS : teaches
-    USER }o--o{ CLASS : joins
-    CLASS ||--o{ PROJECT : contains
-    USER ||--o{ PROJECT : owns
-    PROJECT ||--o{ CODE : contains
-    CLASS ||--o{ REQUEST : receives
-    USER ||--o{ REQUEST : creates
-    USER ||--o{ REQUEST : handles
-
-    USER {
-        string id
-        string email
-        string name
-        string roll
-        enum type
-        string password
-    }
-
-    CLASS {
-        string id
-        string name
-        string teacherId
-    }
-
-    PROJECT {
-        string id
-        string name
-        string userId
-        string classId
-    }
-
-    CODE {
-        string id
-        string projectId
-        enum language
-        string data
-    }
-
-    REQUEST {
-        string id
-        string classId
-        string StudentId
-        string TeacherId
-        enum state
-    }
-```
-
 ---
 
 ## Main Database Models
@@ -887,5 +829,3 @@ CodeCollab-Platform/
 ├── ecosystem.config.cjs
 └── README.md
 ```
-
--
